@@ -1,0 +1,9 @@
+[project]
+name = "apate"
+description = "c++20 header-only x86 hooking library "
+version = "1.0.0"
+
+[target.apate]
+type = "interface"
+include-directories = ["include"]
+compile-features = ["cxx_std_20"]
